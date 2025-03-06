@@ -8,4 +8,19 @@ void ft_putchar(char c)
 
 void ft_print_alphabet(void)
 {
+    char characters = 'a';
+
+    while(characters <= 'z')
+    {
+        ft_putchar(characters);
+        characters++;
+    }
+    
+}
+
+int main()
+{
+    ft_print_alphabet();
+
+    return 0;
 }
